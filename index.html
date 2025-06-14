@@ -1,23 +1,57 @@
+<!-- index.html -->
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Benim İlk Web Sitem</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 - Sayfa Bulunamadı</title>
   <style>
     body {
-      background-color: #1e1e1e;
-      color: white;
-      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0f0f0f;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      flex-direction: column;
       text-align: center;
-      padding-top: 100px;
     }
+
     h1 {
-      color: #00ff88;
+      font-size: 6rem;
+      margin: 0;
+    }
+
+    p {
+      font-size: 1.5rem;
+      margin-top: 10px;
+    }
+
+    a {
+      margin-top: 20px;
+      display: inline-block;
+      padding: 10px 20px;
+      background: #ff0055;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      background: #e6004c;
     }
   </style>
 </head>
+
 <body>
-  <h1>Merhaba Dünya!</h1>
-  <p>Bu benim ilk HTML web sitem.</p>
+  <h1>404</h1>
+  <p>Üzgünüz, aradığınız sayfa bulunamadı.</p>
+  <a href="/">Ana Sayfa</a>
 </body>
+
 </html>
